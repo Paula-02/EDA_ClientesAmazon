@@ -1,0 +1,155 @@
+# Exploratory Data Analysis – Clientes Amazon
+
+Análisis exploratorio del comportamiento de los clientes de Amazon a partir de un conjunto de datos de consumo online.
+
+---
+
+## Versión en español
+
+### Descripción e hipótesis
+
+Este proyecto desarrolla un análisis exploratorio del comportamiento de compra online en Amazon, con el objetivo de identificar qué factores influyen en la finalización de una compra. En un contexto en el que el comercio electrónico tiene un peso cada vez mayor en el consumo global, comprender estos patrones resulta clave para mejorar la experiencia del usuario, detectar perfiles de comportamiento y optimizar las estrategias de venta.
+
+Las hipótesis principales de este EDA son:
+
+- A mayor edad, los usuarios dependen más de las reseñas para realizar una compra.  
+- Los usuarios que navegan con mayor frecuencia en Amazon tienen una mayor probabilidad de completar una compra.  
+- Los productos con un mayor número de reseñas se compran más que aquellos con menos reseñas.  
+- Los usuarios tienden a dejar reseñas con mayor frecuencia cuando la experiencia con el producto ha sido negativa.  
+
+A partir de estas hipótesis, el análisis busca responder a preguntas como:
+
+- ¿Por qué los usuarios abandonan el carrito de compra?  
+- ¿Existen distintos tipos de compradores según su comportamiento?  
+- ¿Qué características presentan los usuarios que navegan con frecuencia pero compran poco o no compran?  
+- ¿Qué factor tiene mayor peso en la decisión de compra: la frecuencia de uso, la edad o la confianza en las reseñas?  
+
+### Fuente de datos
+
+Dataset utilizado:  
+[Amazon Consumer Behaviour Dataset](https://www.kaggle.com/datasets/swathiunnikrishnan/amazon-consumer-behaviour-dataset)
+
+### Tecnologías utilizadas
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
+- VS Code  
+
+### Estructura del repositorio
+
+```text
+EDA_ClientesAmazon/
+├── src/
+│   ├── data/         # Datos brutos y/o procesados
+│   ├── img/          # Gráficos e imágenes generadas
+│   ├── notebooks/    # Notebooks de análisis exploratorio
+│   └── utils/        # Funciones auxiliares y utilidades
+├── .gitattributes
+├── Memoria.pdf
+├── Presentacion.pdf
+├── README.md
+└── main.ipynb
+```
+
+### Instrucciones de reproducción
+
+1. Clonar el repositorio.  
+2. Crear y activar un entorno virtual.  
+3. Instalar las dependencias necesarias.  
+4. Descargar el dataset desde Kaggle y guardarlo en `src/data/`.  
+5. Abrir y ejecutar `main.ipynb` desde la raíz del repositorio.  
+6. Ejecutar las celdas en orden para reproducir el análisis.  
+
+### Principales conclusiones
+
+> *Las conclusiones definitivas se completarán una vez finalizado el análisis. A modo de ejemplo, algunas posibles líneas de resultado son:*
+
+- El comportamiento de compra está influido por variables demográficas y hábitos de navegación.  
+- La confianza en las reseñas parece tener un peso importante en la decisión de compra.  
+- Se identifican perfiles de usuarios con alta navegación pero baja conversión.  
+- El análisis permite extraer patrones útiles para la segmentación y la mejora de la experiencia de usuario.  
+
+### Autores
+
+- Paula Comas – [GitHub](https://github.com/author2) · [LinkedIn](https://www.linkedin.com/in/author2)  
+- Ana Corrochano Fraile – [GitHub](https://github.com/your-github-user) · [LinkedIn](https://www.linkedin.com/in/your-linkedin-user)  
+
+---
+
+## English version
+
+### Project overview and hypotheses
+
+This project presents an exploratory data analysis of online shopping behaviour on Amazon, with the aim of identifying the factors that influence the completion of an online purchase. In a context where e‑commerce plays an increasingly important role in global consumption, understanding these patterns is essential for improving user experience, identifying behavioural profiles, and optimizing sales strategies.
+
+The main hypotheses of this EDA are:
+
+- Older users rely more on reviews when making a purchase.  
+- Users who browse Amazon more frequently are more likely to complete a purchase.  
+- Products with a higher number of reviews are purchased more often than those with fewer reviews.  
+- Users tend to leave reviews more frequently when the product has led to a negative experience.  
+
+Based on these hypotheses, the analysis seeks to answer questions such as:
+
+- Why do users abandon their shopping carts?  
+- Are there different types of buyers according to their behaviour?  
+- What characteristics define users who browse frequently but buy little or do not buy at all?  
+- Which factor has the greatest influence on purchase decisions: usage frequency, age, or trust in reviews?  
+
+### Data source
+
+Dataset used:  
+[Amazon Consumer Behaviour Dataset](https://www.kaggle.com/datasets/swathiunnikrishnan/amazon-consumer-behaviour-dataset)
+
+### Technologies used
+
+- Python  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Jupyter Notebook  
+- VS Code  
+
+### Repository structure
+
+```text
+EDA_ClientesAmazon/
+├── src/
+│   ├── data/         # Raw and/or processed data
+│   ├── img/          # Generated plots and images
+│   ├── notebooks/    # Exploratory analysis notebooks
+│   └── utils/        # Helper functions and utilities
+├── .gitattributes
+├── Memoria.pdf
+├── Presentacion.pdf
+├── README.md
+└── main.ipynb
+```
+
+### Reproducibility instructions
+
+1. Clone the repository.  
+2. Create and activate a virtual environment.  
+3. Install the required dependencies.  
+4. Download the dataset from Kaggle and place it in `src/data/`.  
+5. Open and run `main.ipynb` from the root directory of the repository.  
+6. Execute the notebook cells in order to reproduce the analysis.  
+
+### Main findings
+
+> *The final conclusions will be updated once the analysis is completed. For now, some potential directions are:*
+
+- Purchasing behaviour is influenced by both demographic variables and browsing habits.  
+- Trust in reviews appears to play an important role in purchase decisions.  
+- Some user profiles show high browsing frequency but low conversion.  
+- The analysis helps identify useful patterns for customer segmentation and user experience improvement.  
+
+### Authors
+
+- Paula Comas – [GitHub](https://github.com/author2) · [LinkedIn](https://www.linkedin.com/in/author2)  
+- Ana Corrochano Fraile – [GitHub](https://github.com/your-github-user) · [LinkedIn](https://www.linkedin.com/in/your-linkedin-user)  
