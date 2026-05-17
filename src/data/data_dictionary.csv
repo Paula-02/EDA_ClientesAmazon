@@ -1,0 +1,24 @@
+columna,dtype,nulos_pct,unicos,ejemplo
+Timestamp,str,0.0,601,2023/06/04 1:28:19 PM GMT+5:30
+age,int64,0.0,50,23
+Gender,str,0.0,4,Female
+Purchase_Frequency,str,0.0,5,Few times a month
+Purchase_Categories,str,0.0,29,Beauty and Personal Care
+Personalized_Recommendation_Frequency,str,0.0,3,Yes
+Browsing_Frequency,str,0.0,4,Few times a week
+Product_Search_Method,str,0.3,4,Keyword
+Search_Result_Exploration,str,0.0,2,Multiple pages
+Customer_Reviews_Importance,int64,0.0,5,1
+Add_to_Cart_Browsing,str,0.0,3,Yes
+Cart_Completion_Frequency,str,0.0,5,Sometimes
+Cart_Abandonment_Factors,str,0.0,4,Found a better price elsewhere
+Saveforlater_Frequency,str,0.0,5,Sometimes
+Review_Left,str,0.0,2,Yes
+Review_Reliability,str,0.0,5,Occasionally
+Review_Helpfulness,str,0.0,3,Yes
+Personalized_Recommendation_Frequency ,int64,0.0,5,2
+Recommendation_Helpfulness,str,0.0,3,Yes
+Rating_Accuracy ,int64,0.0,5,1
+Shopping_Satisfaction,int64,0.0,5,1
+Service_Appreciation,str,0.0,9,Competitive prices
+Improvement_Areas,str,0.0,18,Reducing packaging waste
