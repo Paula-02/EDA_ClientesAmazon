@@ -1,0 +1,24 @@
+columna,tipo,dtype,nulos_pct,unicos,min,max,duplicados
+Timestamp,categórica,str,0,601,,,1
+age,numérica,int64,0,50,3.0,67.0,552
+Gender,categórica,str,0,4,,,598
+Purchase_Frequency,categórica,str,0,5,,,597
+Purchase_Categories,categórica,str,0,29,,,573
+Personalized_Recommendation_Frequency,categórica,str,0,3,,,599
+Browsing_Frequency,categórica,str,0,4,,,598
+Product_Search_Method,categórica,str,2,4,,,597
+Search_Result_Exploration,categórica,str,0,2,,,600
+Customer_Reviews_Importance,numérica,int64,0,5,1.0,5.0,597
+Add_to_Cart_Browsing,categórica,str,0,3,,,599
+Cart_Completion_Frequency,categórica,str,0,5,,,597
+Cart_Abandonment_Factors,categórica,str,0,4,,,598
+Saveforlater_Frequency,categórica,str,0,5,,,597
+Review_Left,categórica,str,0,2,,,600
+Review_Reliability,categórica,str,0,5,,,597
+Review_Helpfulness,categórica,str,0,3,,,599
+Personalized_Recommendation_Frequency ,numérica,int64,0,5,1.0,5.0,597
+Recommendation_Helpfulness,categórica,str,0,3,,,599
+Rating_Accuracy ,numérica,int64,0,5,1.0,5.0,597
+Shopping_Satisfaction,numérica,int64,0,5,1.0,5.0,597
+Service_Appreciation,categórica,str,0,9,,,593
+Improvement_Areas,categórica,str,0,18,,,584
