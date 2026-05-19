@@ -1,25 +1,25 @@
 import numpy as np
 
 # ── Paleta colores global ────────────────────────────────────────────────────────────
-COLORES = ["#7F77DD", "#1D9E75", "#378ADD", "#D85A30", "#D4537E",
-           "#BA7517", "#639922", "#888780", "#E24B4A", "#4ABDD8"]
+COLORES = ["#0072B2","#E69F00","#009E73","#D55E00",
+           "#CC79A7","#56B4E9","#F0E442","#333333"]
 
 COLORES_SEG = {
-    "Comprador activo":  "#1D9E75",
-    "Navegador pasivo":  "#D85A30",
-    "Comprador directo": "#378ADD",
-    "Usuario ocasional": "#888780",
+    "Comprador activo":  "#0072B2",
+    "Navegador pasivo":  "#E69F00",
+    "Comprador directo": "#009E73",
+    "Usuario ocasional": "#999999",
 }
 
-COLORES_H1 = ["#c6dbef", "#9ecae1", "#6baed6", "#3182bd", "#08519c", "#08306b"]
+COLORES_H1 = ["#eff3ff", "#bdd7e7", "#6baed6", "#3182bd", "#08519c", "#081d58"]
 
-COLORES_H2 = ["#c7e9c0", "#74c476", "#31a354", "#006d2c"]
+COLORES_H2 = ["#edf8fb", "#b2e2e2", "#66c2a4", "#238b45"]
 
-COLORES_H3=["#fc8d59", "#fee08b", "#91cf60"]
+COLORES_H3=["#d8b365", "#f5f5f5", "#5ab4ac"]
 
-COLORES_H4 = ["#d73027", "#fc8d59", "#fee08b", "#91cf60", "#1a9850"]
+COLORES_H4 = ["#a6611a","#dfc27d","#f5f5f5","#80cdc1", "#018571"]
 
-COLORES_Q1 = ["#D85A30", "#D4537E", "#BA7517", "#7F77DD", "#1D9E75"]
+COLORES_Q1 = ["#D55E00","#E69F00","#F0E442","#56B4E9","#0072B2"]
 
 # ── Significancia ─────────────────────────────────────────────────────────────
 def significancia(p):
