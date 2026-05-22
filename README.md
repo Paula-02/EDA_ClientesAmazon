@@ -1,8 +1,17 @@
+<table>
+<tr>
+<td>
+
 # Exploratory Data Analysis – Clientes Amazon
 
 Análisis exploratorio del comportamiento de los clientes de Amazon a partir de un conjunto de datos de consumo online.
 
----
+</td>
+<td align="right">
+<img src="src/img/logo.png" alt="Logo" width="80">
+</td>
+</tr>
+</table>
 
 ## Versión en español
 
@@ -66,17 +75,26 @@ EDA_ClientesAmazon/
 
 ### Principales conclusiones
 
-> *Las conclusiones definitivas se completarán una vez finalizado el análisis. A modo de ejemplo, algunas posibles líneas de resultado son:*
+## H1: Edad y Reseñas
+**Refutada.** La edad no influye significativamente en la importancia que los usuarios dan a las reseñas.
 
-- El comportamiento de compra está influido por variables demográficas y hábitos de navegación.  
-- La confianza en las reseñas parece tener un peso importante en la decisión de compra.  
-- Se identifican perfiles de usuarios con alta navegación pero baja conversión.  
-- El análisis permite extraer patrones útiles para la segmentación y la mejora de la experiencia de usuario.  
+## H2: Navegación y Compra
+**Parcialmente confirmada.** Una mayor frecuencia de navegación se asocia con un mayor número de compras, aunque la relación no es perfecta.
+
+## H3: Impacto de las Reseñas
+**Confirmación limitada.** Las reseñas afectan a la satisfacción y la confianza de los usuarios, pero no actúan como el único factor que impulsa la compra.
+
+## H4: Reseñas Negativas
+**Refutada.** Dejar reseñas es un hábito característico de usuarios activos y no una respuesta exclusiva a experiencias negativas. 
+
+El análisis concluye que la **interacción del usuario en la plataforma**, como la navegación y la gestión del carrito, es el principal motor de compra, superando la relevancia de los factores demográficos.
+
+Para optimizar la conversión, Amazon debe centrarse en la **competitividad de precios** y en reforzar la **credibilidad de su sistema de reseñas**.
 
 ### Autores
 
-- Paula Comas – [GitHub](https://github.com/author2) · [LinkedIn](https://www.linkedin.com/in/author2)  
-- Ana Corrochano Fraile – [GitHub](https://github.com/your-github-user) · [LinkedIn](https://www.linkedin.com/in/your-linkedin-user)  
+- Paula Comas – [GitHub](https://github.com/Paula-02) 
+- Ana Corrochano Fraile – [GitHub](https://github.com/AnaCoFra) · [LinkedIn](https://www.linkedin.com/in/ana-corrochano-fraile-6bb551163/)  
 
 ---
 
@@ -142,14 +160,23 @@ EDA_ClientesAmazon/
 
 ### Main findings
 
-> *The final conclusions will be updated once the analysis is completed. For now, some potential directions are:*
+## H1: Age and Reviews
+**Refuted.** Age does not significantly influence the importance users place on reviews.
 
-- Purchasing behaviour is influenced by both demographic variables and browsing habits.  
-- Trust in reviews appears to play an important role in purchase decisions.  
-- Some user profiles show high browsing frequency but low conversion.  
-- The analysis helps identify useful patterns for customer segmentation and user experience improvement.  
+## H2: Browsing and Purchase
+**Partially confirmed.** Higher browsing frequency is associated with a greater number of purchases, although the relationship is not perfect.
+
+## H3: Review Impact
+**Limited confirmation.** Reviews affect user satisfaction and trust, but they do not act as the sole driver of purchasing decisions.
+
+## H4: Negative Reviews
+**Refuted.** Leaving reviews is a habit of active users rather than an exclusive response to negative experiences.
+
+The analysis concludes that **user interaction on the platform**, such as browsing and cart management, is the primary driver of purchases, outweighing the relevance of demographic factors.
+
+To optimize conversion, Amazon should focus on **price competitiveness** and reinforcing the **credibility of its review system**.
 
 ### Authors
 
-- Paula Comas – [GitHub](https://github.com/author2) · [LinkedIn](https://www.linkedin.com/in/author2)  
-- Ana Corrochano Fraile – [GitHub](https://github.com/your-github-user) · [LinkedIn](https://www.linkedin.com/in/your-linkedin-user)  
+- Paula Comas – [GitHub](https://github.com/Paula-02)
+- Ana Corrochano Fraile – [GitHub](https://github.com/AnaCoFra) · [LinkedIn](https://www.linkedin.com/in/ana-corrochano-fraile-6bb551163/)  
